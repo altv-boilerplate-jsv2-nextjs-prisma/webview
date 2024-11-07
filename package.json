@@ -1,0 +1,51 @@
+{
+    "name": "",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+        "[-] Server Deployment Commands (They All Do Different Things)": "",
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "[-] Prisma": "",
+        "prisma:push": "npx prisma db push",
+        "prisma:migrate": "npx prisma migrate dev",
+        "prisma:generate": "npx prisma generate"
+    },
+    "author": "DevPanda",
+    "license": "ISC",
+    "devDependencies": {
+        "@altv/shared": "^0.0.24",
+        "@altv/webview": "^0.0.6",
+        "@types/node": "^22.7.4",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "fs-extra": "^11.2.0",
+        "glob": "^11.0.0",
+        "postcss": "^8.4.47",
+        "prisma": "^5.20.0",
+        "tailwindcss": "^3.4.13",
+        "typescript": "latest",
+        "watcher": "^2.3.1"
+    },
+    "dependencies": {
+        "@emotion/styled": "^11.13.0",
+        "@prisma/client": "^5.20.0",
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.7.7",
+        "next": "14.2.13",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "semi": true,
+        "printWidth": 120,
+        "arrowParens": "always",
+        "singleQuote": true
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "type": "module"
+}
